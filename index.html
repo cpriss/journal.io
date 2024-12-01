@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Daily Journal</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daily Journal & Gratitude Diary</h1>
+        </header>
+        <div class="calendar">
+            <input type="date" id="journalDate" />
+        </div>
+        <div class="mood-tracker">
+            <h2>How are you feeling today?</h2>
+            <div class="emojis">
+                <span class="emoji" data-mood="happy">😊</span>
+                <span class="emoji" data-mood="neutral">😐</span>
+                <span class="emoji" data-mood="sad">😢</span>
+            </div>
+        </div>
+        <div class="journal-entry">
+            <h2>Today's Entry</h2>
+            <textarea id="entryText" placeholder="Write about your day..."></textarea>
+            <button id="saveButton">Save Entry</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
